@@ -1,0 +1,274 @@
+{
+  "step_wise": true,
+  "total_steps": "7",
+  "step_1": {
+    "label": "Basic Details",
+    "fields": [
+      {
+        "label": "First Name",
+        "name": "firstName",
+        "type": "text",
+        "defaultValue": "",
+        "col": "8",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+
+      {
+        "label": "Last Name",
+        "name": "lastname",
+        "type": "text",
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Contact Number",
+        "name": "contact_number",
+        "type": "number",
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "phone"
+      },
+      {
+        "label": "Email",
+        "name": "email",
+        "type": "text",
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": ""
+      },
+      {
+        "label": "Date Of Birth",
+        "name": "dob",
+        "type": "calendar",
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": ""
+      },
+
+      {
+        "label": "Gender",
+        "name": "gender",
+        "type": "radio",
+        "options": [
+          {
+            "label": "Male",
+            "value": "Male"
+          },
+          {
+            "label": "Female",
+            "value": "Female"
+          },
+          {
+            "label": "Others",
+            "value": "Others"
+          }
+        ],
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": ""
+      },
+      {
+        "label": "Blood Group",
+        "name": "blood_group",
+        "type": "select",
+
+        "options": [
+          {
+            "label": "",
+            "value": ""
+          },
+          {
+            "label": "A+",
+            "value": "A+"
+          },
+          {
+            "label": "A-",
+            "value": "A-"
+          },
+          {
+            "label": "B+",
+            "value": "B+"
+          },
+          {
+            "label": "B-",
+            "value": "B-"
+          },
+          {
+            "label": "AB+",
+            "value": "AB+"
+          },
+          {
+            "label": "AB-",
+            "value": "AB-"
+          },
+          {
+            "label": "O+",
+            "value": "O+"
+          },
+          {
+            "label": "O-",
+            "value": "O-"
+          }
+        ],
+        "col": "4",
+        "defaultValue": "",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": ""
+      }
+    ]
+  },
+  "step_2": {
+    "label": "Address Details",
+    "fields": [
+      {
+        "label": "Address Line 1",
+        "name": "address_line_1",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Address Line 2",
+        "name": "address_line_2",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {},
+        "icon": "user"
+      },
+      {
+        "label": "Landmark",
+        "name": "landmark",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "State",
+        "name": "state",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "City",
+        "name": "city",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Pincode",
+        "name": "Pincode",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      }
+    ]
+  },
+  "step_3": {
+    "label": "Parental Details",
+    "fields": [
+      {
+        "label": "Parent Annual Income",
+        "name": "parent_annual_income",
+        "type": "number",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required",
+          "pattern": {
+            "value": "val",
+            "message": "Invalid amount format"
+          }
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Father's Name",
+        "name": "father_name",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Father's Occupation",
+        "name": "father_occupation",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Mother's Name",
+        "name": "mother_name",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      },
+      {
+        "label": "Mother's Occupation",
+        "name": "mother_occupation",
+        "type": "text",
+        "defaultValue": "",
+        "col": "4",
+        "rules": {
+          "required": "This field is required"
+        },
+        "icon": "user"
+      }
+    ]
+  }
+}

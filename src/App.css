@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #f500561a, rgb(255, 255, 255));
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  border: 0.5px solid white;
+  padding: 1rem;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.219);
+  padding-bottom: 5rem;
+  background-color: white;
+  width: 90%;
+  animation: form forwards 0.6s;
+}
+
+@keyframes form {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+label {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  border: 0.5px solid #3e3e3e44;
+  border-radius: 3px;
+  /* margin-bottom: 1rem; */
+}
+
+/* .select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+} */
+
+.error {
+  color: rgba(255, 0, 0, 0.795);
+  font-size: 0.9rem;
+}
+
+.submit {
+  width: 100%;
+  padding: 6px;
+  /* background-color: #f50056e1; */
+  /* color: white; */
+  /* border: none; */
+  font-size: 1.2rem;
+  border-radius: 4px;
+  transition: 0.2s all;
+}
+.sub {
+  width: 100%;
+  padding: 6px;
+  background-color: #f50056e1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  transition: 0.2s all;
+}
+
+.sub:hover {
+  background-color: #f500568e;
+}
+
+/* stepper css starts form here  */
+
+.stepper-container {
+  /* border: 1px solid #3e3e3e9d; */
+  display: flex;
+  height: 5vh;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  gap: 2rem;
+  color: #3e3e3ecc;
+  cursor: pointer;
+  /* width: 90%; */
+}
+
+.stepper-txt:hover {
+  color: #272727;
+}
+/* stepper css ends   here  */
